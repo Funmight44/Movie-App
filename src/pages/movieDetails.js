@@ -17,7 +17,7 @@ useEffect(() => {
     }
     fetchData();
 }, 
-[]);
+[params.id]);
 
  //getting the document title
 useEffect(() => {
