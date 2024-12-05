@@ -6,6 +6,7 @@ import { useEffect } from "react";
 const MovieLists = ({apiPath, title}) => {
    const {data: movies, isloading} = useFetch(apiPath)
 
+   //getting the document title
    useEffect(() => {
     document.title = `${title}/Cineamte`
   });
